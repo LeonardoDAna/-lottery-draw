@@ -1,0 +1,61 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+html,body{
+	-webkit-user-select:none;
+	-moz-user-select:none;
+	-ms-user-select:none;
+	user-select:none;
+}
+#Left{
+	width:900px;
+	height: 460px;
+	border:1px solid red;
+	margin: 0 auto;
+}
+#down{
+	width:730px;
+	height: 70px;
+	margin: 0 auto;
+}
+.box{
+	background:url(../img/goldEgg80.jpg);/*图片链接*/
+	width: 80px;
+	height:80px;
+	margin: 10px 0px 0px 10px;
+	float: left;
+	color: red;
+	font-size: 20px;
+}
+.box::after{
+	color: black;
+}
+#Firstline{
+	width: 1000px;
+	height: 90px;
+}
+#right{
+	width:300px;
+	height: 70px;
+	border:1px solid black;
+	margin:50px 0px;
+	float: right;
+}
+#right dt{
+	font-size:30px;
+	text-align: center;
+	margin: 15px 0 0 0;
+}
+#btn{
+	width:300px;
+	height: 70px;
+	border:1px solid black;
+	margin:50px 0px;
+	float: left;
+}
+#btn dt{
+	font-size:30px;
+	text-align: center;
+	margin: 15px 0 0 0
+}
